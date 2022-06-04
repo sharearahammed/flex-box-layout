@@ -1,0 +1,13 @@
+.flex-container {
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+    .flex-container > div {
+        font-size:30px;
+        padding:20px;
+        margin:30px;
+        /*width:55px;*/
+        background-color:red;
+    }
